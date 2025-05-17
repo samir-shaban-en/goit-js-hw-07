@@ -27,12 +27,12 @@ const images = [
 
 const listEl = document.querySelector('.gallery');
 
-const listCreatorMurkup = (imgItem) => {
+const listCreatorMarkup = (imgItem) => {
   return ` <li class='card-item'>
       <img src='${imgItem.url}' alt='${imgItem.alt}' width='380'  ></img>
     </li>`;
 };
 
-const createdImagesMurcup = images.map(listCreatorMurkup).join('');
+const createdImagesMarcup = images.map(listCreatorMarkup).join('');
 
-listEl.insertAdjacentHTML('beforeend', createdImagesMurcup);
+listEl.insertAdjacentHTML('beforeend', createdImagesMarcup);

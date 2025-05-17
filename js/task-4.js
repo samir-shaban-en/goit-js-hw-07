@@ -13,7 +13,7 @@ function submitForm(event) {
   }
 
   console.log({
-    name: emailValue,
+    email: emailValue,
     password: passwordValue,
   });
 
